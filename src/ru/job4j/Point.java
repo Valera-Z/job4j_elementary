@@ -5,8 +5,8 @@ public class Point {
         int xDifference = x2 - x1;
         int yDifference = y2 - y1;
         double sumOfPwr = Math.pow(xDifference, 2) + Math.pow(yDifference, 2);
-        double rsl = Math.sqrt(sumOfPwr);
-        return rsl;
+        //double rsl = Math.sqrt(sumOfPwr);
+        return Math.sqrt(sumOfPwr);
     }
 
     public static void main(String[] args) {
