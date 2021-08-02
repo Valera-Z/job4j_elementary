@@ -1,11 +1,9 @@
 package ru.job4j;
 
-public class SqArea{
-    public static double square(double p, double k){
-            double tmp = k+1;
-            tmp*=2;
-            double h = p /tmp;
-            double l = h * k;
+public class SqArea {
+    public static double square(double p, double k) {
+        double h = p / ((k + 1) * 2);
+        double l = h * k;
             return l * h;
         }
 
