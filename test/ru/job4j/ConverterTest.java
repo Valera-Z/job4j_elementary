@@ -5,6 +5,7 @@ import org.junit.Assert;
 
 public class ConverterTest {
 
+
     @Test
     public void whenConvert140RblThen2Euro() {
         float in = 140;
